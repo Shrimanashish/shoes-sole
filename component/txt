@@ -1,0 +1,94 @@
+
+import Image from 'next/image'
+const About = () => {
+  return (
+    <>
+      <div className="about_container">
+		<div className="about_row">
+			
+
+			 <div className="about_information">
+               
+              <div className="about_heading"><h1>ABOUT US</h1></div>
+			  <div className="data-hover">
+				Genki Healthcare Solution aims to become a foremost organization in the area of healthcare across the spectrum of prevention, cure and rehabilitation. The aspiration is to have a positive impact on 1 billion lives.
+                We are team well educated in biomechanics, types of gait, and medical conditions relating to the feet. 
+                Our purpose is to provide information, education, and quality products that are effective. We are not here to just sell you a product, we want you to have the right product for your foot type, gait, or pathology management. We want you to feel better.
+				</div>
+				
+			   <img src="/about2.jpg"  alt='error image loading' className='about-home-image'></img>
+			  <div className="about_heading"><h1>WALK WITH INTEGRITY</h1></div>
+			  <div className="data-hover">
+			  <div className="about-data">
+				<p> The soles are the foundation of our company. From here we build our structure of personal and business morals, always striving to do what is right. 
+                </p>
+			  </div>
+			  </div>
+			  <img src="/about5.jpg"  alt='error image loading'className='about-home-image'></img>
+
+			  <div className="about_heading"><h1>KNOW YOUR STUFF</h1></div>
+			  <div className="data-hover">
+			  <div className="about-data">
+				<p>We all know that every foot is different and every individual needs solutions based on his activity and body type, so our tagline says,” Every soul is special “ 
+                We are familiar with terms such as structured, unstructured, high arch, low arch, pronating and supinating. And we probably know at least one person who has dealt with the painful condition of plantar fasciitis. Our medical professionals have teamed up to match you with an optimal insole. What type of insole do you need for your specific foot type? Which orthotic could help relieve your foot pain? Our “insole advisor” may be able to help you answer this question! 
+
+                </p>
+			  </div>
+			 
+			  </div>
+			  <img src="/about4.jpg"  alt='error image loading'className='about-home-image'></img>
+			  <div className="about_heading"><h1>QUALITY, QUALITY, QUALITY</h1></div>
+			  <div className="data-hover">
+			  <div className="about-data">
+				<p>There are so many products out available in the market. We've tried, tested, and researched many of them. We know the quality difference and strive to offer our customers only the best in arch support and pain relief. 
+                </p>
+			  </div>
+			  <div className="card-body"></div>
+			  </div>
+			  <img src="/about8.jpg"  alt='error image loading'className='about-home-image'></img>
+			  <div className="about_heading"><h1>CARE FOR THE CUSTOMER</h1></div>
+			  <div className="data-hover">
+			  <div className="about-data">
+				<p>You are why we are here. Our goal is to help you find the product that suits your needs and foot type. We are here to serve you and offer the best customer care that we can. 
+                </p>
+			  </div>
+			
+			  </div>
+
+			  <div className="about_heading"><h1>OFFER AFFORDABLE OPTIONS</h1></div>
+			  <div className="data-hover">
+			  <div className="about-data">
+				<p>We recognize that there are cases in which custom orthotics are necessary. We also recognize that in many cases the more affordable option of a pre-manufactured insole or orthotic can improve gait, relieve pain, reduce fatigue, and improve the overall quality of life. The goal is to serve our customers with the best products at affordable prices.
+                </p>
+			  </div>
+			  <div className="card-body"></div>
+			  </div>
+
+			  <div className="about_heading"><h1>OUR COMMITMENT</h1></div>
+			  <div className="data-hover">
+			  <div className="about-data">
+				<p>Our products are designed and developed by a team of podiatrists, physical therapists, paedorthists, and other medical professionals. Our commitment is to provide the best quality products to suit every individual needs 
+                </p>
+				<p>
+				We know that when your feet hurt it affects your whole life. From the moment you get out of bed in the morning your feet support you throughout your whole day. When you have foot pain it can make every task you do more difficult. Hundreds of thousands of people have greatly benefited from the use of quality orthotics. Our medical professionals are working together to bring you quality insoles at an affordable price. A little extra support goes a long way! 
+				</p>
+			  </div>
+			  
+			 </div>
+
+			</div>
+
+			{/* <div className="about_image">
+				
+				
+				
+				
+			</div> */}
+
+		</div>
+	  </div>
+    </>
+  )
+}
+
+export default About
